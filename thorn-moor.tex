@@ -3,6 +3,7 @@
 \usepackage[top=1.1in,bottom=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{pdfpages}
 
 % TO-DO
 % - page headers/footers
@@ -27,6 +28,8 @@
 
 % DOCUMENT
 \begin{document}
+
+\includepdf{pictures/front-cover.pdf}
 
 \maketitle
 
@@ -63,5 +66,12 @@
 \input{chapters/13}
 \chapter*{Old Devon verse}
 \input{chapters/14-verse}
+
+\clearpage
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth]{pictures/cropped/Mike Saffin.jpg}
+  \caption*{Mike Saffin}
+\end{figure}
 
 \end{document}
