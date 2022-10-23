@@ -11,9 +11,6 @@
 % - images
 % - front/back covers
 
-\usepackage{xcolor}
-\newcommand{\here}{\,{\color{red}\underline{\textbf{continue here}}}\,}
-
 % Preamble
 \usepackage[osf]{libertine}
 \usepackage{microtype}
@@ -34,6 +31,9 @@
 % \includepdf{pictures/front-cover.pdf}
 
 \maketitle
+
+\chapter*{Old Devon verse}
+\input{content/14-verse}
 
 \chapter*{Foreword}
 
@@ -58,35 +58,33 @@ to be formed into this booklet.
 \emph{Mike Saffin, October 2022}
 
 \chapter{}
-\input{chapters/1}
-\input{chapters/2}
+\input{content/1}
+\input{content/2}
 \chapter{}
-\input{chapters/3}
+\input{content/3}
 \chapter{}
-\input{chapters/4}
+\input{content/4}
 \chapter{}
-\input{chapters/5}
+\input{content/5}
 \chapter{}
-\input{chapters/6}
-\input{chapters/7}
+\input{content/6}
+\input{content/7}
 \chapter{}
-\input{chapters/8}
-\input{chapters/9}
+\input{content/8}
+\input{content/9}
 \chapter{}
-\input{chapters/10}
+\input{content/10}
 
 % Pictures
 \clearpage
-\input{chapters/pictures}
+\input{content/pictures}
 
 \chapter{}
-\input{chapters/11}
+\input{content/11}
 \chapter{}
-\input{chapters/12}
+\input{content/12}
 \chapter{}
-\input{chapters/13}
-\chapter*{Old Devon verse}
-\input{chapters/14-verse}
+\input{content/13}
 
 % Back cover
 % \includepdf{pictures/back-cover.pdf}
